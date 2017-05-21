@@ -1,13 +1,12 @@
 $(document).ready(function(){
     var visible =true;
-    $("input").click(function(){
-        var d = $("div").css("display");
-        if(d=="none")
+    $("#ChatBtn").click(function(){
+        if(visible)
          {   
-             $("div").fadeIn();
+             $("#holder").fadeOut();
              visible=false;
          }else{
-             $("div").fadeOut();
+             $("#holder").fadeIn();
              visible=true;
          }
     });
