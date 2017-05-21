@@ -2,7 +2,7 @@ div{
     background-color: red;
     height: 335px;
     width: 260px;   
-    position: absolute;
+    position: absolute; 
     bottom: 45px;
     right: 5px;
 }
